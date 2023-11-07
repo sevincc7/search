@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: bisque;
+    text-align: center;
+}
+
+h1 {
+    margin: 20px;
+    padding: 20px;
+}
+
+#btn {
+    background-color: red;
+    border-radius: 20px;
+    color: white;
+    border: 0;
+    width: 100px;
+    height: 100%;
+    position: absolute;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+form {
+    width: auto;
+    height: 40px;
+    position: relative;
+}
+
+#searchinp {
+    height: 100%;
+    width: 300px;
+    border-radius: 20px;
+    border: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    padding: 10px 20px;
+}
